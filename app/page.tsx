@@ -11,7 +11,7 @@ export default function Home() {
     <HeroHighlightDemo/>
     <CardHoverEffectDemo/>
     <InfiniteMovingCardsDemo/>
-    <p className="text-neutral-500 max-w-2xl mx-auto text-4xl font-bold  my-10 text-center relative z-10">
+    <p className="text-neutral-500 max-w-2xl pl-8 pr-8 mx-auto text-4xl font-bold  my-10 text-center relative z-10">
     Luca is a platform built for operators
 </p>
     <BentoGridDemo/>

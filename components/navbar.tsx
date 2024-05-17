@@ -52,7 +52,7 @@ const Navbar = async () => {
       </nav>
       <aside className="flex items-center gap-4">
         <Link
-          href="/dashboard"
+          href=""
           className="relative inline-flex h-10 overflow-hidden rounded-full p-[2px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
         ></Link>
         {/* {user ? <UserButton afterSignOutUrl="/" /> : null} */}
