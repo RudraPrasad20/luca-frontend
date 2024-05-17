@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { HeroHighlight, Highlight } from "./ui/hero-highlight";
+import { Highlight } from "./ui/hero-highlight";
 import Image from "next/image";
 
 
@@ -8,7 +8,6 @@ import Image from "next/image";
 export function HeroHighlightDemo() {
   return (
     <div className="mt-20">
-      <HeroHighlight>
         <motion.h1
           initial={{
             opacity: 0,
@@ -30,7 +29,7 @@ export function HeroHighlightDemo() {
           </Highlight>{" "}
           for retail
         </motion.h1>
-        <p className="text-neutral-500 max-w-lg text-xl mx-auto my-6 text-center relative z-10">
+        <p className="text-neutral-500 p-8 max-w-lg text-xl mx-auto my-6 text-center relative z-10">
           Luca&apos;s AI-powered pricing engine uses sales patterns and market
           intelligence to recommend prices, guaranteeing profit and revenue
           gains.
@@ -84,7 +83,6 @@ export function HeroHighlightDemo() {
             src="https://assets-global.website-files.com/632ccb00bcdae75835d251df/6553b6a151c8601c2669b231_Acquco.jpeg"
           />
         </div>
-      </HeroHighlight>
     </div>
   );
 }
